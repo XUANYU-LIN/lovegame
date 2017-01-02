@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+	<head>
+	    <meta charset="UTF-8">		
+		<title>戀愛打地鼠lovelove</title>
+		<link rel="shortcut icon" href="img/a.ico">
+		<link rel="stylesheet" type="text/css" href="css/lovestyle.css">
+		<script src="js/lovejava.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+	</head>
+	<body>
+        <div id="infront">
+            <button  id="b" type="button" onclick="document.getElementById('infront').style.display='none'"><a><img src= "img/title.png"/></a></button>
+            <a><img class="picture" src= "img/background.png"/></a>
+        </div>
+
+		<div id="content">
+
+        
+		    <button id="c" type="button" onclick="GameStart()"><a><img src= "img/enter.png"/></a></button>
+			<button id="c" type="button" onclick="GameOver()"><a><img src= "img/exit.png"/></a></button>
+			
+			<br>
+			<br>
+			<form name="form1">
+				<label>心動指數：</label>
+				<input type="text" name="score" size="5">
+				
+				<label>倒數計時：</label>
+				<input type="text" name="remtime" size="5">
+			</form>
+			<br>
+			<br>
+			<table>
+				<tr>
+					<td id="td[0]" onclick="hit(0)"></a></td>
+					<td id="td[1]" onclick="hit(1)"></a></td>
+					<td id="td[2]" onclick="hit(2)"></a></td>
+					<td id="td[3]" onclick="hit(3)"></a></td>
+					<td id="td[4]" onclick="hit(4)"></a></td>
+				</tr>
+				<tr>
+					<td id="td[5]" onclick="hit(5)"></a></td>
+					<td id="td[6]" onclick="hit(6)"></a></td>
+					<td id="td[7]" onclick="hit(7)"></a></td>
+					<td id="td[8]" onclick="hit(8)"></a></td>
+					<td id="td[9]" onclick="hit(9)"></a></td>
+				</tr>
+				<tr>
+					<td id="td[10]" onclick="hit(10)"></a></td>
+					<td id="td[11]" onclick="hit(11)"></a></td>
+					<td id="td[12]" onclick="hit(12)"></a></td>
+					<td id="td[13]" onclick="hit(13)"></a></td>
+					<td id="td[14]" onclick="hit(14)"></a></td>
+				</tr>
+			
+			</table>
+
+		</div>
+		<div id="end" style="display: none;">
+            <a><img class="picture" src= "img/69.jpg"/></a>
+            <button id="d" type="button" onClick="history.go(0);"><a><img src= "img/again.png"/></a></button>
+		</div>
+		<div id="good" style="display: none;">
+            <a><img class="picture" src= "img/96.jpg"/></a>
+            <button id="d" type="button" onClick="history.go(0);"><a><img src= "img/again.png"/></a></button>
+		</div>
+		
+	</body>
+</html>
