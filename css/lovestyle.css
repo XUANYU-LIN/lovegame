@@ -27,7 +27,7 @@ body {
 }
 
 #end{
-
+        background-image: url("img/69.jpg");
 	position: absolute;
 	background-color:white; 
 	width: 100%;
@@ -38,7 +38,7 @@ body {
 }
 
 #good{
-
+        background-image: url("img/96.jpg");
 	position: absolute;
 	background-color:white; 
 	width: 100%;
@@ -49,7 +49,7 @@ body {
 }
 
 #bad{
-
+        background-image: url("img/23.jpg");
 	position: absolute;
 	background-color:white; 
 	width: 100%;
